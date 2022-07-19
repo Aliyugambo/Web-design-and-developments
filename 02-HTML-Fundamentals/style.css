@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+
+/* Product describtion */
+
+.main {
+    border: 5px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(235, 232, 232);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.product-img {
+    float: left;
+    margin-right: 40px;
+}
+
+.product-info {
+    width: 243px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.price {
+    font-size: 12px;
+    float: left;
+}
+
+.shipping {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.sales {
+    background-color: rgb(214, 15, 15);
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    display: inline-block;
+    font-weight: bold;
+    position: absolute;
+    top: -17px;
+    left: -38px;
+    letter-spacing: 2px;
+}
+
+
+/* Styling links */
+
+.more-info:link {
+    color: #141414;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.more-info:visited {
+    /* color: #777; */
+    color: #0b0c0c;
+    margin-bottom: 30px;
+}
+
+.more-info:hover {
+    text-decoration: none;
+}
+
+.more-info:active {
+    text-decoration: none;
+}
+
+.color {
+    display: inline-block;
+    background-color: #0b0c0c;
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+
+.content {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.color-blue {
+    background-color: rgb(28, 99, 231);
+}
+
+.color-red {
+    background-color: #f81515;
+}
+
+.color-yellow {
+    background-color: #e9ec0a;
+}
+
+.color-green {
+    background-color: #0c9629;
+}
+
+.color-brown {
+    background-color: brown;
+}
+
+.product-details {
+    width: 243px;
+    float: left;
+    margin-top: 20px;
+}
+
+.ditails-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    /* margin: 20px 0; */
+    margin-bottom: 10px;
+}
+
+.ditails-list {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.ditails-list li {
+    margin-bottom: 16px;
+}
+
+.add-cart {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-top: 4px solid #0b0c0c;
+}
+
+.add-cart:hover {
+    background-color: #fff;
+    color: black;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: small;
+}
+
+
+/* .content {
+    margin-bottom: 20px;
+} */
