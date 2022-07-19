@@ -1,0 +1,138 @@
+:root {
+    --custom-color: rgb(87, 81, 81);
+    --padding: 10px;
+    --medium-font-size: 1.2em;
+    --big-font-size: 2.5em;
+    --input-padding: 15px 25px;
+    --border-radius: 8px;
+    --margin-top: 10px;
+    --margin-bottom: 10px;
+    --border: 1px solid rgb(197, 212, 221);
+    --misc-color: steelblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.Container {
+    background-color: #fff;
+    max-width: 100%;
+    min-height: 400px;
+    margin: 10px auto;
+    width: 1000px;
+}
+
+
+/* Main Header Style */
+
+.main-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(251, 251, 251);
+    /* border: 5px solid; */
+}
+
+
+/* Nav Links Style */
+
+nav {
+    display: flex;
+}
+
+nav a:link,
+:visited {
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+}
+
+nav a:hover,
+:active {
+    color: rgb(68, 155, 236);
+}
+
+h1 {
+    color: rgb(95, 93, 93);
+}
+
+
+/* End Of Head Style */
+
+
+/* Main-Container Style */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+
+/* Styling Form */
+
+.form-main {
+    margin: 30px auto;
+    padding: var(--padding);
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+}
+
+.form-items {
+    color: rgb(36, 35, 42);
+    font-size: 16px;
+    line-height: 10px;
+    min-height: 20px;
+    border-radius: 4px;
+    padding: 4px 16px;
+    border: 2px solid transparent;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+    background: rgb(251, 251, 251);
+    transition: all 0.1s ease 0s;
+}
+
+.form-items:focus {
+    border: 2px solid rgb(124, 138, 255);
+}
+
+
+/* Form Style End */
+
+
+/* Button Styling */
+
+.btn {
+    width: 230px;
+    height: 36px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(74, 121, 248);
+    border: none;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    /* transition-duration: 0.3s; */
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn::hover {
+    background: rgb(123, 179, 243);
+}

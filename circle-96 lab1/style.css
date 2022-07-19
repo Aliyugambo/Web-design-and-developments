@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+
+/* Styling Page Container */
+
+.container {
+    background-color: rgba(228, 230, 231, 0.973);
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    margin: auto;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+
+/* Form head */
+
+.form-head {
+    text-align: center;
+    color: rgb(90, 161, 226);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+
+/* Form Style */
+
+.form-style {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-divs {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Form Input */
+
+.form-input {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(142, 163, 231);
+    outline: none;
+}
+
+.form-lable {
+    margin: 8px 0;
+}
+
+.form-pass_forget {
+    font-size: small;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+
+.btn-log {
+    width: 250px;
+    height: 36px;
+    margin: 10px 20%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 60px;
+    background-color: rgb(74, 121, 248);
+    border: none;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+}
+
+.btn-log:hover {
+    background-color: rgb(154, 163, 243);
+    cursor: pointer;
+}
+
+
+/* Form Links */
+
+a {
+    display: flex;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    margin-top: 10px;
+}
+
+a:link {
+    color: rgb(74, 121, 248);
+}
+
+a:visited {
+    color: rgb(74, 121, 248);
+}
+
+a:focus {
+    background: none;
+}
+
+a:hover {
+    color: rgb(7, 7, 7);
+    background: none;
+}
+
+a:active {
+    background: none;
+    color: #cdfeaa;
+}
+
+
+/* Footer Style */
+
+footer {
+    display: inline-block;
+    /* border: 5px solid blue; */
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon {
+    /* padding: 5px;
+    min-width: 10px;
+    margin-top: 5px;
+    color: rgb(14, 16, 17); */
+    color: rgb(167, 164, 164);
+}
+
+.icon:hover {
+    color: rgb(95, 169, 243);
+}
+
+.foot-link {
+    justify-content: center;
+    display: inline-block;
+}
